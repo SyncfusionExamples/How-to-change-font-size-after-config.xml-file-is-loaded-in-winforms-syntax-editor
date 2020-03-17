@@ -46,12 +46,6 @@ namespace EditControlFontCustomize
 
             ConfigLexem configLex1 = new ConfigLexem("[1-9]+", "", FormatType.Custom, false);
 
-
-            configLex.IsBeginRegex = true;
-            configLex.IsEndRegex = true;
-            configLex.FormatName = "Keyword";
-         
-
             configLex1.IsBeginRegex = true;
             configLex1.IsEndRegex = true;
             configLex1.FormatName = "Keyword1";
